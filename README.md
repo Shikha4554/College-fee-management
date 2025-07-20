@@ -63,7 +63,7 @@ npm install
 
 # Set up environment variables (if any)
 # Example: create a .env file with:
-# MONGO_URI=your_mongodb_connection_string
+# MONGO_URI=mongodb_connection_string
 # PORT=5000
 
 # Start the server
