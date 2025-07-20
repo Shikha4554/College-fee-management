@@ -1,17 +1,71 @@
 # Fee Management System
 Developed using nodeJS, MongoDB, ExpressJS, HTML, pug, css
+# 💰 College Fee Management System
 
+> A web-based system built with the MERN stack (without React) to streamline student fee management for educational institutions. It offers functionalities for managing student records, tracking payments, and generating fee reports.
 
-### Pre-requisites
- - [Install nodeJS](https://nodejs.org/en/download/)
- - [Install MongoDB](https://docs.mongodb.com/manual/installation/)
- - [Install MongoChef(Optional)](http://3t.io/mongochef/download/)
- 
-### How to use
- 1. Open command prompt.
- 2. Run mongoDB server using command 'mongod'. 
- 4. Go into the project folder.
- 5. Open command prompt there (ctrl+shift+right_click -> Open command window here)
- 6. Run server.js, by typing 'node server.js'.
- 7. Install required dependencies using 'npm install &lt;package-name&gt;'
- 8. Once the server starts successfully, open browser and go the address: 'localhost:1337/'
+---
+
+## 📌 Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [License](#license)
+- [Contact](#contact)
+
+---
+
+## 📖 About
+
+The **College Fee Management System** automates fee collection and student record handling. Admins can add or update student information, track fee status, and view financial summaries — all through an intuitive web interface powered by Express.js and MongoDB.
+
+---
+
+## ✨ Features
+
+- Admin login and session handling
+- Add, edit, and delete student records
+- Assign fee structure by semester or course
+- Real-time fee payment tracking
+- Due fee alerts and payment status
+- Generate receipts (PDF optional)
+- View overall and individual reports
+- Search/filter student data using jQuery
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Technology             |
+|-------------|------------------------|
+| **Frontend**| HTML, CSS, JavaScript, jQuery |
+| **Backend** | Node.js, Express.js     |
+| **Database**| MongoDB (Mongoose)      |
+| **Other**   | Git, Postman, VS Code   |
+
+---
+
+## ⚙️ Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/college-fee-management.git
+
+# Navigate to the project folder
+cd college-fee-management
+
+# Install backend dependencies
+npm install
+
+# Set up environment variables (if any)
+# Example: create a .env file with:
+# MONGO_URI=your_mongodb_connection_string
+# PORT=5000
+
+# Start the server
+node server.js
+
